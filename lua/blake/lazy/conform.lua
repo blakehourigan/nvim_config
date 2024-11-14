@@ -8,6 +8,7 @@ return {
 				python = { "isort", "black" },
 				rust = { "rustfmt", "lsp" }, -- Use 'lsp' as a placeholder for LSP formatting
 				javascript = { "prettierd", "prettier", stop_after_first = true },
+				latex = { "latexindent" },
 			},
 			-- Define custom formatters with specific arguments
 			formatters = {
