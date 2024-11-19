@@ -8,4 +8,6 @@ vim.opt.expandtab = true
 
 vim.opt.termguicolors = true
 
-vim.opt.clipboard="unnamed,unnamedplus"
+vim.opt.clipboard = "unnamed,unnamedplus"
+
+vim.opt.guicursor = ""
